@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+.banniere {
+    padding: 30px;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+#lop {
+    margin: 20px;
+    padding: 10px;
+}
+h2 {
+    margin-left: 20px;
+}
+.services {
+    margin-left: 20px;
+    border-left: 5px #e68080 solid;
+    padding: 10px;
+}
