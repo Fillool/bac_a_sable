@@ -17,7 +17,23 @@ h2 {
     margin-left: 20px;
 }
 .services {
-    margin-left: 20px;
+    margin: 8px 30px 8px 20px;
     border-left: 5px #e68080 solid;
     padding: 10px;
+    box-shadow: 6px 6px 0px rgb(250, 249, 249, 0.5);
+}
+#acc {
+    background-color: aqua;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+.affiche {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+#acc:hover {
+    background-color: black;
+    
 }
