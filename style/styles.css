@@ -1,29 +1,124 @@
 body {
-    background-color: rgb(83, 72, 72);
-    color: white;
+    background-color: #1f2039;
+    font-family: 'Mantope', sans-serif;
+    font-size: 1em;
 }
+
+header {
+    background-color: white;
+    padding: 20px 50px;
+}
+
+header, footer {
+    background-color: white;
+    padding: 20px 50px;
+}
+
+footer, nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav a { 
+    margin-left: 30px;
+}
+
+.le_carre {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.le_carre + div {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, li {
+    font-size: 1.1em;
+    color: #f9f8ff;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #f9f8ff;
+}
+
+.cta {
+    display: inline-block;
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+}
+
 .banniere {
     padding: 30px;
 }
+
+
+
+.navbarr {
+    text-align: center;
+}
+
+.listnav {
+    display: inline;
+}
+
+.logo {
+    font-weight: bold;
+    float: left;
+}
+
+
 h1 {
     color: blue;
     text-align: center;
 }
+
 #lop {
     margin: 20px;
     padding: 10px;
 }
+
 h2 {
     margin-left: 20px;
 }
+
+
 .services {
     margin: 8px 30px 8px 20px;
     border-left: 5px #e68080 solid;
     padding: 10px;
     box-shadow: 6px 6px 0px rgb(250, 249, 249, 0.5);
 }
-.services, ul {
-    list-style-type: none;
+
+
+.a_pro {
+    background-color: #073461;
+    color: white;
 }
 #acc {
     text-decoration: none;
@@ -32,6 +127,7 @@ h2 {
     padding: 15px;
     margin-left: 30px;
 }
+
 nav.affiche {
     display: flex;
     flex-direction: row;
@@ -42,14 +138,37 @@ nav.affiche {
     width: auto;
     height: 80px;
 }
+
 nav.affiche, a {
-    padding: 20px;
-    
+    padding: 10px;
 }
-img {
-    border: 2px #e68080 solid;
-}
+
 #acc:hover {
     background-color: rgb(230, 22, 22);
     color: white;
+}
+section {
+    padding: 80px;
+}
+table {
+    color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+caption {
+    padding-bottom: 50px;
+}
+
+td, th {
+    padding: 15px;
+    border: 1px solid rgb(53, 90, 190);
+}
+
+td {
+    padding: 80px;
+}
+
+.les-icone {
+    margin-left: 30px;
 }
