@@ -20,7 +20,7 @@
     </header>
 
     <main>
-        <section>
+        <section class="acceuil">
             <div>
                 <h1>Robbie Lens Photographie</h1>
                 <p>Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion
@@ -30,17 +30,37 @@
             </div>
             <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens">
         </section>
-        <section>
+        <section class="photo">
             <h2>Mon dernier projet</h2>
             <div>
-
+                <img src="images/accueil/element-1.png" alt="Twelve apostles Austalie">
+                <img src="images/accueil/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zelande">
+                <img src="images/accueil/element-3.png" alt="Parc National d'Abel Tasman - Nouvelle-Zelande">
             </div>
             <div>
-
+                <img src="images/accueil/element-4.png" alt="Lac Rotorua - Nouvelle-Zelande">
+                <img src="images/accueil/element-5.png" alt="Milford Sound - Nouvelle-Zelande">
+                <img src="images/accueil/element-6.png" alt="Lac Wanaka - Nouvelle-Zelande">
             </div>
         </section>
-        <section>
+        <section id="contact" class="sel-cont">
             <h2>Parlons de votre projet</h2>
+            <form method="get" action="">
+                <div class="form-email">
+                    <div class="form-col">
+                        <label for="nom">nom</label>
+                        <input id="nom" type="text" name="nom">
+                    </div>
+                    <div class="form-col">
+                        <label for="email">email</label>
+                        <input id="email" type="e-mail" name="email">
+                    </div>
+                </div>
+                <label for="message">message</label>
+                <textarea id="message" name="message"></textarea>
+                <input class="cta" type="submit" value="Envoyer">
+            </form>
+
         </section>
     </main>
 

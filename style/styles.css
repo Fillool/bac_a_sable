@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: #1f2039;
     font-family: 'Mantope', sans-serif;
@@ -23,14 +27,6 @@ footer, nav {
 
 a {
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-nav a { 
-    margin-left: 30px;
 }
 
 .le_carre {
@@ -73,40 +69,16 @@ h2 {
     text-transform: uppercase;
 }
 
-.banniere {
-    padding: 30px;
-}
-
-
-
-.navbarr {
-    text-align: center;
-}
-
-.listnav {
-    display: inline;
-}
-
 .logo {
     font-weight: bold;
     float: left;
 }
 
-
 h1 {
-    color: blue;
-    text-align: center;
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
 }
-
-#lop {
-    margin: 20px;
-    padding: 10px;
-}
-
-h2 {
-    margin-left: 20px;
-}
-
 
 .services {
     margin: 8px 30px 8px 20px;
@@ -115,41 +87,91 @@ h2 {
     box-shadow: 6px 6px 0px rgb(250, 249, 249, 0.5);
 }
 
-
 .a_pro {
     background-color: #073461;
     color: white;
 }
-#acc {
-    text-decoration: none;
-    background-color: rgb(255, 255, 255);
-    font-size: 20px;
-    padding: 15px;
-    margin-left: 30px;
-}
 
-nav.affiche {
+.acceuil {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    font-size: 20px;
-    padding: 10px;
-    margin: 20px;
-    width: auto;
-    height: 80px;
+    max-width: 1000px;
+    align-items: flex-start;
+    margin: auto;
 }
 
-nav.affiche, a {
-    padding: 10px;
+.acceuil h1 {
+    margin-bottom: 15px;
 }
 
-#acc:hover {
-    background-color: rgb(230, 22, 22);
+.acceuil div {
+    padding-right: 80px;
+}
+
+.acceuil p {
+    margin-bottom: 30px;
+}
+
+.photo {
+    background-color: white;
+    padding: 80px;
+}
+
+.photo div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.photo h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.sel-cont h2 {
+    color: #a5b4fc;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form {
     color: white;
 }
+
+.form-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20PX;
+}
+
 section {
     padding: 80px;
 }
+
+.sel-cont{
+    width: auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
 table {
     color: white;
     text-align: center;
