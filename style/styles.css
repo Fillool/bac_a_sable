@@ -35,42 +35,14 @@ a {
 
 nav a {
     margin-left: 30px;
+    font-size: 1.2em;
 }
 
 nav a:hover{
     text-decoration: underline;
 }
-
-.le_carre {
-    border-right: 1px solid #8e86b5;
-    border-bottom: 1px solid #8e86b5;
-    padding: 50px;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 80px;
-}
-
-.le_carre + div {
-    text-align: center;
-}
-
-h1 {
-    font-size: 3.5rem;
-    color: #a5b4fc;
-    font-family: 'Montserrat', sans-serif;
-}
-
-p, li {
-    font-size: 1.1em;
-    color: #f9f8ff;
-}
-
-h2 {
-    margin-top: 30px;
-    text-align: center;
-    margin-bottom: 80px;
-    color: #f9f8ff;
-}
+/* fin header --- debut main */
+/*  section acceuil  */
 
 .cta {
     display: inline-block;
@@ -79,18 +51,6 @@ h2 {
     border-radius: 50px;
     padding: 20px 30px;
     text-transform: uppercase;
-}
-
-.services {
-    margin: 8px 30px 8px 20px;
-    border-left: 5px #e68080 solid;
-    padding: 10px;
-    box-shadow: 6px 6px 0px rgb(250, 249, 249, 0.5);
-}
-
-.a_pro {
-    background-color: #073461;
-    color: white;
 }
 
 .acceuil {
@@ -111,6 +71,52 @@ h2 {
 
 .acceuil p {
     margin-bottom: 30px;
+}
+
+.le_carre {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.le_carre + div {
+    text-align: center;
+}
+
+/*  section  */
+
+h1 {
+    font-size: 3.5rem;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #f9f8ff;
+}
+
+p, li {
+    font-size: 1.1em;
+    color: #f9f8ff;
+}
+
+
+.services {
+    margin: 8px 30px 8px 20px;
+    border-left: 5px #e68080 solid;
+    padding: 10px;
+    box-shadow: 6px 6px 0px rgb(250, 249, 249, 0.5);
+}
+
+.a_pro {
+    background-color: #073461;
+    color: white;
 }
 
 .photo {
@@ -138,7 +144,12 @@ h2 {
     margin-bottom: 50px;
 }
 
+/* form -- */
 form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
     color: white;
 }
 
@@ -152,7 +163,7 @@ form {
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20PX;
+    margin-bottom: 20px;
 }
 
 section {
@@ -167,11 +178,23 @@ label {
     margin-bottom: 10px;
 }
 
+input, textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+}
+
 input[type="submit"] {
     width: 200px;
     margin: auto;
     margin-top: 30px;
 }
+
+textarea {
+    padding: 70px;
+}
+
+/*  form  */
 
 table {
     color: white;
