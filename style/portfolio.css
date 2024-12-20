@@ -1,0 +1,52 @@
+/*  portfolio */
+
+.port-section {
+    background-color: white;
+}
+.grid-pay {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+}
+
+.grid-por {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+}
+
+.grid-pay img, .grid-por img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lien-conteneur {
+    position: relative;
+}
+
+.photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.port-section h2 {
+    color: #242424;
+    margin-bottom: 80px;
+}
+
+.lien-conteneur:hover .photo-hover {
+    display: flex;
+}
