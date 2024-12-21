@@ -8,6 +8,15 @@ body {
     font-size: 1em;
 }
 
+a {
+    text-decoration: none;
+}
+
+em {
+    color: #a5b4fc;
+    font-style: normal;
+}
+
 header {
     background-color: white;
     padding: 20px 50px;
@@ -29,10 +38,6 @@ footer, nav {
     margin-left: 30px;
 }
 
-a {
-    text-decoration: none;
-}
-
 nav a {
     margin-left: 30px;
     font-size: 1.2em;
@@ -41,6 +46,7 @@ nav a {
 nav a:hover{
     text-decoration: underline;
 }
+
 /* fin header --- debut main */
 /*  section acceuil  */
 
@@ -96,7 +102,6 @@ h1 {
 
 h2 {
     margin-top: 30px;
-    text-align: center;
     margin-bottom: 80px;
     color: #f9f8ff;
 }
